@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    text-align: center;
+    background-image:url(images/architect.jpg) ;
+    background-size: cover;
+    background-position: center center;
+   
+
+}
+h1{
+    color: white;
+    padding: 400px 300px;
+    font-size: 32px; ;
+    font-weight: 200;
+     ;
+}
+.head span{
+  margin-right: 15px;   
+  color: rgba(255, 255, 255, 0,0);
+  background-color: rgba(0, 0, 0, 0.7); ;
+  padding: 13px 13px;
+}
+
+.project{
+  padding: 32px 16px;
+}
+.houses{
+   display: flex;
+   flex-wrap: wrap;
+    margin-left: 2%;
+    margin-bottom: 10px;
+   
+}
+.house{
+   width: 22.5%;
+ height: 260px;
+
+ background-image: url(images/house5.jpg);
+
+ margin: 8px 8px ;
+ padding: 0px 8px;
+
+   
+   
+}
+
+.house2{
+ background-image: url(images/house4.jpg);
+} 
+.house3{
+ background-image: url(images/house3.jpg);
+} 
+.house4{
+ background-image: url(images/house2.jpg);
+} 
+.house div{
+    width: 30%;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+}
+ .house1 div{
+    width: 35%;
+ }
+
+
+h3{
+    margin: 10px 0px;
+    padding: 16px 0px ;
+}
+p{
+    margin: 30px 10px;
+}
+.persons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+.person{
+
+    width: 23.5%;
+
+    margin: 10px 0px ;
+    padding: 0px 8px;
+}
+.person img{
+    width: 100%;
+    border-radius:40% ;
+}
+.person button{
+    width: 85%;
+  color: black;
+
+  background-color: #f1f1f1;
+  border: none;
+  width: 100%;
+  padding: 8px 16px;
+  
+  
+
+}
+input{
+    display: block;
+    width: 98%;
+    margin: 16px 0px;
+    padding: 10px 10px ;
+    
+  
+}
+.title{
+    margin-left: 2%;
+}
+.formm{
+    margin-left: 2%;
+}
+.formm button{
+    color: white;
+    background-color: black;
+    margin: 16px 0px;
+    padding: 8px 16px;
+
+}
+.map{
+    background-image: url(images/map.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    height: 110vh;
+    margin: 10px 10px;
+}
+.botom{
+    display: block;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+}
+@media screen and (max-width:996px) {
+   
+    .houses{
+        display: flex;
+       
+        align-items: center;
+    }
+    .house{
+        width: 100%;
+        flex-direction: column;
+        justify-content: ceter;
+        background-repeat: no-repeat;
+    }
+    
+
+    
+    .persons{
+        flex-direction: column;
+    }
+    .person{
+        width: 100%;
+    }
+    .map{
+      
+        background-repeat: no-repeat;
+       
+    }
+}
